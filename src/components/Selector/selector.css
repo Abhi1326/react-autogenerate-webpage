@@ -1,0 +1,54 @@
+.openOver{
+    position: absolute;
+    z-index: 999;
+
+}
+
+.display_list{
+    -webkit-box-shadow: 1px -2px 7px #888888;
+    box-shadow: 1px -2px 7px #888888;
+    text-align: center;
+    padding: 30px;
+    width: 408px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #000;
+    overflow: scroll;
+}
+.overTop li{
+    color: #fff;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 5px 10px;
+    letter-spacing: 0.4px;
+    font-size: 18px;
+}
+.togglebtn{
+    z-index: 1000;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+}
+.bar{
+    height: 100vh;
+    background-color: #313131;
+    padding: 0;
+    width: 56px;
+    z-index: 1000;
+}
+.overTop{
+    margin-left: 50px;
+}
+.overTop > div{
+    display: table;
+    margin: 20px 0;
+    border: 1px solid rgba(146, 146, 146, 0.45);
+    padding: 5px;
+    cursor: pointer;
+}

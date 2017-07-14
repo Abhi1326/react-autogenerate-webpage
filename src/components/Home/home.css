@@ -1,0 +1,14 @@
+.remove_btn{
+    position: absolute;
+    right: 10px;
+    display: block;
+    background-color: #2d2b2b;
+    color: #e8bac2;
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+    z-index: 999999;
+    cursor: pointer;
+}
